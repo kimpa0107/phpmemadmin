@@ -222,3 +222,65 @@ function deleteKey(key)
         }
     );
 }
+
+/**
+ * Delete selected keys
+ *
+ * @return void
+ */
+function delSelectedKeys()
+{
+    alertify.set(
+        {
+            buttonFocus: "cancel"
+        }
+    );
+
+    alertify.custom = alertify.extend('custom');
+
+    var keys = [];
+
+    var trs = document.querySelectorAll('#storedKeys tbody tr');
+    trs.forEach(function(tr, idx) {
+        var inpt = tr.querySelector('input');
+        if (inpt.checked) {
+            var key = tr.querySelector('input').value;
+            keys.push(key);
+        }
+    });
+
+    if (! keys.length) {
+        return;
+    }
+    keys = keys.join(',');
+    var keysStr = keys.replace(/,/g, '<br/>');
+
+    alertify.confirm(
+        'Are you sure want to DELETE SELECTED KEYS:<br/><span style="word-break: break-word;">' + keysStr + '</span>?',
+        function (e) {
+            if (e) {
+
+                alertify.custom('Deleting selected keys. Please wait ...');
+
+                window.location.hash = '';
+                window.location.href = window.location.href.replace('#', '') + '&delete_selected=' + keys;
+            } else {
+                alertify.custom('Action canceled.');
+            }
+        }
+    );
+}
+
+function checkAllKeys()
+{
+    var chkBox = document.querySelectorAll('#check-all-keys');
+    var trs = document.querySelectorAll('#storedKeys tbody tr');
+    trs.forEach(function(tr, idx) {
+        var inpt = tr.querySelector('input');
+        if (chkBox[0].checked) {
+            inpt.checked = true;
+        } else {
+            inpt.checked = false;
+        }
+    });
+}

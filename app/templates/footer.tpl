@@ -31,11 +31,11 @@
 <!-- START: script -->
 <script type="text/javascript" src="assets/js/ui.js"></script>
 <script type="text/javascript" src="assets/js/phpmemadmin.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js"></script>
-<script type="text/javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="//cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script type="text/javascript" src="assets/libs/bootstrap/bootstrap-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/libs/alertify.js/alertify.min.js"></script>
+<script type="text/javascript" src="assets/libs/dataTables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="assets/libs/dataTables/dataTables.bootstrap.js"></script>
+<script type="text/javascript" src="assets/libs/highlight.js/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <!-- END: script -->
 

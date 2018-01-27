@@ -1,0 +1,245 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Client	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^class Client$/;"	class	line:82
+persistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $persistentId;$/;"	variable	line:90
+host	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $host;$/;"	variable	line:98
+port	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $port;$/;"	variable	line:106
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $timeout;$/;"	variable	line:114
+compression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $compression;$/;"	variable	line:122
+compressor	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $compressor = self::DEFAULT_COMPRESSOR;$/;"	variable	line:130
+compressor	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $compressor = self::DEFAULT_COMPRESSOR;$/;"	variable	line:130
+connections	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected static $connections = array();$/;"	variable	line:138
+connections	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected static $connections = array();$/;"	variable	line:138
+lastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $lastResponse = 0;$/;"	variable	line:146
+lastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $lastResponse = 0;$/;"	variable	line:146
+sigsEnd	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $sigsEnd = array($/;"	variable	line:154
+sigsEnd	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $sigsEnd = array($/;"	variable	line:154
+allowedCommands	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $allowedCommands = array($/;"	variable	line:299
+allowedCommands	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected $allowedCommands = array($/;"	variable	line:299
+__construct	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function __construct($/;"	function	line:772
+host	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $host         = null,$/;"	variable	line:773
+port	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $port         = self::DEFAULT_PORT,$/;"	variable	line:774
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $timeout      = self::DEFAULT_TIMEOUT,$/;"	variable	line:775
+persistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $persistentId = null,$/;"	variable	line:776
+compression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $compression  = true$/;"	variable	line:777
+persistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $persistentId = sha1(rand(0, 99999999));$/;"	variable	line:789
+setHost	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function setHost($host)$/;"	function	line:817
+host	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->host = $host;$/;"	variable	line:819
+host	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function host($host)$/;"	function	line:831
+getHost	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function getHost()$/;"	function	line:844
+setPort	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function setPort($port)$/;"	function	line:858
+port	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->port = $port;$/;"	variable	line:860
+port	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function port($port)$/;"	function	line:872
+getPort	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function getPort()$/;"	function	line:885
+setTimeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function setTimeout($timeout)$/;"	function	line:899
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->timeout = $timeout;$/;"	variable	line:901
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function timeout($timeout)$/;"	function	line:913
+getTimeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function getTimeout()$/;"	function	line:926
+connect	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function connect($host, $port, $timeout = null)$/;"	function	line:943
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function connect($host, $port, $timeout = null)$/;"	variable	line:943
+uuid	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $uuid = $this->uuid($host, $port);$/;"	variable	line:945
+timeout	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $timeout = $this->getTimeout();$/;"	variable	line:948
+errorNumber	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $errorNumber = null;$/;"	variable	line:952
+errorString	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $errorString = 'n.a.';$/;"	variable	line:953
+connection	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $connection = @fsockopen($/;"	variable	line:957
+connection	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $connection = @fsockopen($/;"	variable	line:965
+connection	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $connection = self::$connections[$this->getPersistentId()][$uuid];$/;"	variable	line:991
+send	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function send($command, $data = '')$/;"	function	line:1008
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function send($command, $data = '')$/;"	variable	line:1008
+socket	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $socket = $this->connect($this->getHost(), $this->getPort());$/;"	variable	line:1021
+buffer	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $buffer = '';$/;"	variable	line:1024
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            if ($command === self::COMMAND_INCR || $command === self::COMMAND_DECR) {$/;"	variable	line:1036
+touch	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function touch($key, $expiration)$/;"	function	line:1074
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_TOUCH . self::COMMAND_SEPARATOR   .$/;"	variable	line:1081
+increment	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function increment($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	function	line:1100
+offset	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function increment($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	variable	line:1100
+incr	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function incr($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	function	line:1118
+offset	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function incr($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	variable	line:1118
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_INCR . self::COMMAND_SEPARATOR   .$/;"	variable	line:1125
+decrement	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function decrement($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	function	line:1144
+offset	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function decrement($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	variable	line:1144
+decr	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function decr($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	function	line:1162
+offset	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function decr($key, $offset = 1, $initialValue = 0, $expiration = 0)$/;"	variable	line:1162
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_DECR . self::COMMAND_SEPARATOR   .$/;"	variable	line:1169
+set	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function set($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	function	line:1190
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function set($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	variable	line:1190
+serialized	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $serialized = $this->serializeValue($value, $flags, $bytes);$/;"	variable	line:1198
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $value = $serialized['value'];$/;"	variable	line:1200
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $flags = $serialized['flags'];$/;"	variable	line:1201
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = $serialized['bytes'];$/;"	variable	line:1202
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1205
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_SET . self::COMMAND_SEPARATOR   .$/;"	variable	line:1208
+add	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function add($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	function	line:1233
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function add($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	variable	line:1233
+serialized	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $serialized = $this->serializeValue($value, $flags, $bytes);$/;"	variable	line:1241
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $value = $serialized['value'];$/;"	variable	line:1243
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $flags = $serialized['flags'];$/;"	variable	line:1244
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = $serialized['bytes'];$/;"	variable	line:1245
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1248
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_ADD . self::COMMAND_SEPARATOR   .$/;"	variable	line:1251
+replace	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function replace($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	function	line:1276
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function replace($key, $value, $expiration = 0, $flags = 0, $bytes = null)$/;"	variable	line:1276
+serialized	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $serialized = $this->serializeValue($value, $flags, $bytes);$/;"	variable	line:1284
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $value = $serialized['value'];$/;"	variable	line:1286
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $flags = $serialized['flags'];$/;"	variable	line:1287
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = $serialized['bytes'];$/;"	variable	line:1288
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1291
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_REPLACE . self::COMMAND_SEPARATOR   .$/;"	variable	line:1294
+append	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function append($key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	function	line:1318
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function append($key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	variable	line:1318
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1326
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_APPEND . self::COMMAND_SEPARATOR   .$/;"	variable	line:1329
+prepend	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function prepend($key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	function	line:1353
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function prepend($key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	variable	line:1353
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1361
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_PREPEND . self::COMMAND_SEPARATOR   .$/;"	variable	line:1364
+cas	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function cas($token, $key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	function	line:1392
+expiration	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function cas($token, $key, $value, $expiration = 0, $flags = self::FLAG_DEFAULT, $bytes = null)$/;"	variable	line:1392
+serialized	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $serialized = $this->serializeValue($value, $flags, $bytes);$/;"	variable	line:1400
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $value = $serialized['value'];$/;"	variable	line:1402
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $flags = $serialized['flags'];$/;"	variable	line:1403
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = $serialized['bytes'];$/;"	variable	line:1404
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $bytes = ($bytes !== null) ? $bytes : strlen($value);$/;"	variable	line:1407
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_CAS . self::COMMAND_SEPARATOR   .$/;"	variable	line:1410
+get	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function get($key, $metadata = false)$/;"	function	line:1431
+metadata	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function get($key, $metadata = false)$/;"	variable	line:1431
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_GET . self::COMMAND_SEPARATOR   .$/;"	variable	line:1438
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = $this->send(self::COMMAND_GET, $data);$/;"	variable	line:1441
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = array_column($result, 'value', 0);$/;"	variable	line:1445
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $result[0];$/;"	variable	line:1446
+gets	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function gets(array $keys, $metadata = false)$/;"	function	line:1462
+metadata	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function gets(array $keys, $metadata = false)$/;"	variable	line:1462
+keys	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $keys = implode(self::COMMAND_SEPARATOR, $keys);$/;"	variable	line:1469
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_GETS . self::COMMAND_SEPARATOR   .$/;"	variable	line:1472
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = $this->send(self::COMMAND_GETS, $data);$/;"	variable	line:1475
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = array_column($result, 'value', 'key');$/;"	variable	line:1479
+delete	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function delete($key)$/;"	function	line:1494
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_DELETE . self::COMMAND_SEPARATOR  .$/;"	variable	line:1501
+stats	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function stats($type = '', $argument1 = '', $argument2 = '')$/;"	function	line:1518
+argument1	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function stats($type = '', $argument1 = '', $argument2 = '')$/;"	variable	line:1518
+type	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $type = self::COMMAND_SEPARATOR . $type;$/;"	variable	line:1526
+argument1	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $argument1 = self::COMMAND_SEPARATOR . $argument1;$/;"	variable	line:1530
+argument2	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $argument2 = self::COMMAND_SEPARATOR . $argument2;$/;"	variable	line:1534
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_STATS . $type .$/;"	variable	line:1538
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->send(self::COMMAND_STATS, $data);$/;"	variable	line:1547
+memory	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $memory = $this->send(self::COMMAND_STATS, $data);$/;"	variable	line:1552
+key	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                foreach ($memory as $key => $value) {$/;"	variable	line:1555
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->send(self::COMMAND_STATS, $data);$/;"	variable	line:1563
+memory	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $memory = $this->send(self::COMMAND_STATS, $data);$/;"	variable	line:1569
+key	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                foreach ($memory as $key => $value) {$/;"	variable	line:1572
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->send(self::COMMAND_STATS, $data);$/;"	variable	line:1593
+uuid	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $uuid = $this->uuid($this->getHost(), $this->getPort());$/;"	variable	line:1601
+version	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function version()$/;"	function	line:1615
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_VERSION . self::COMMAND_TERMINATOR;$/;"	variable	line:1622
+flush	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function flush()$/;"	function	line:1634
+flush_all	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    public function flush_all()$/;"	function	line:1646
+data	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $data = self::COMMAND_FLUSH_ALL . self::COMMAND_TERMINATOR;$/;"	variable	line:1653
+setCompression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function setCompression($compression)$/;"	function	line:1671
+compression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->compression = $compression;$/;"	variable	line:1673
+compression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function compression($compression)$/;"	function	line:1685
+getCompression	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function getCompression()$/;"	function	line:1699
+setPersistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function setPersistentId($persistentId)$/;"	function	line:1713
+persistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->persistentId = $persistentId;$/;"	variable	line:1715
+persistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function persistentId($persistentId)$/;"	function	line:1727
+getPersistentId	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function getPersistentId()$/;"	function	line:1740
+setLastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function setLastResponse($response)$/;"	function	line:1754
+lastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $this->lastResponse = $response;$/;"	variable	line:1756
+lastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function lastResponse($response)$/;"	function	line:1769
+getLastResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function getLastResponse()$/;"	function	line:1782
+uuid	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function uuid()$/;"	function	line:1794
+isSerializable	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function isSerializable($value)$/;"	function	line:1810
+type	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $type = gettype($value);$/;"	variable	line:1812
+reset	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function reset()$/;"	function	line:1830
+parseReadResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseReadResponse($buffer, array $lines)$/;"	function	line:1849
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = array();$/;"	variable	line:1852
+line	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $line = 0;$/;"	variable	line:1855
+metaData	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $metaData = explode(self::COMMAND_SEPARATOR, $lines[$line]);$/;"	variable	line:1865
+key	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $key    = $metaData[1];$/;"	variable	line:1877
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $value  = '';$/;"	variable	line:1878
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $flags  = (int)$metaData[2];$/;"	variable	line:1879
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $length = $metaData[3];$/;"	variable	line:1880
+cas	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $cas    = (isset($metaData[4])) ? (float)$metaData[4] : null;$/;"	variable	line:1881
+frame	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $frame  = 0;$/;"	variable	line:1882
+frame	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $frame = 1;$/;"	variable	line:1891
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $length = strlen($value);$/;"	variable	line:1910
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value  = unserialize($value);$/;"	variable	line:1911
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value  = boolval($value);$/;"	variable	line:1914
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $length = strlen($value);$/;"	variable	line:1915
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value  = floatval($value);$/;"	variable	line:1918
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $length = strlen($value);$/;"	variable	line:1919
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value  = intval($value);$/;"	variable	line:1922
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $length = strlen($value);$/;"	variable	line:1923
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value = json_encode(unserialize($value), JSON_UNESCAPED_UNICODE);$/;"	variable	line:1928
+length	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $length = strlen($value);$/;"	variable	line:1929
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->setLastResponse(self::MEMCACHED_NOTFOUND);$/;"	variable	line:1948
+parseWriteResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseWriteResponse($buffer, array $lines)$/;"	function	line:1972
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = ($buffer === self::RESPONSE_STORED . self::COMMAND_TERMINATOR);$/;"	variable	line:1975
+responseLineIntro	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $responseLineIntro = $lines[0];$/;"	variable	line:1985
+parseFlushResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseFlushResponse($buffer)$/;"	function	line:2017
+parseDeleteResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseDeleteResponse(array $lines)$/;"	function	line:2035
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = true;$/;"	variable	line:2037
+metaData	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $metaData = explode(self::COMMAND_SEPARATOR, $lines[0]);$/;"	variable	line:2038
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $result = $this->setLastResponse(self::MEMCACHED_NOTFOUND);$/;"	variable	line:2043
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $result = $this->setLastResponse(self::MEMCACHED_FAILURE);$/;"	variable	line:2047
+parseStatsResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseStatsResponse(array $lines)$/;"	function	line:2066
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $result = array();$/;"	variable	line:2072
+line	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $line = 0;$/;"	variable	line:2075
+metaData	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $metaData = explode(self::COMMAND_SEPARATOR, $lines[$line]);$/;"	variable	line:2079
+nodes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $nodes      = explode(':', $metaData[1]);$/;"	variable	line:2090
+countNodes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $countNodes = count($nodes);$/;"	variable	line:2091
+identifier	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $identifier   = array_shift($metaData);$/;"	variable	line:2112
+key	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $key          = array_shift($metaData);$/;"	variable	line:2113
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value        = implode(self::COMMAND_SEPARATOR, $metaData);$/;"	variable	line:2114
+parseVersionResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseVersionResponse(array $lines)$/;"	function	line:2138
+metaData	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $metaData = explode(self::COMMAND_SEPARATOR, $lines[0]);$/;"	variable	line:2141
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $metaData[1];$/;"	variable	line:2145
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->setLastResponse(self::MEMCACHED_FAILURE);$/;"	variable	line:2148
+parseArithmeticResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseArithmeticResponse($buffer, array $lines)$/;"	function	line:2167
+metaData	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $metaData = explode(self::COMMAND_SEPARATOR, $lines[0]);$/;"	variable	line:2170
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->setLastResponse(self::MEMCACHED_NOTFOUND);$/;"	variable	line:2174
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = (float)$metaData[0];$/;"	variable	line:2178
+checkResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function checkResponse($buffer)$/;"	function	line:2193
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = self::MEMCACHED_FAILURE;$/;"	variable	line:2198
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = self::RESPONSE_CLIENT_ERROR;$/;"	variable	line:2202
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = self::ERROR_SERVER;$/;"	variable	line:2206
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = self::MEMCACHED_SUCCESS;$/;"	variable	line:2209
+parseResponse	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function parseResponse($command, $buffer)$/;"	function	line:2227
+response	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $response = substr($buffer, 0, strlen($buffer) - strlen(self::COMMAND_TERMINATOR));$/;"	variable	line:2230
+lines	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^        $lines    = explode(self::COMMAND_TERMINATOR, $response);$/;"	variable	line:2231
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_GET ||$/;"	variable	line:2234
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_GETS$/;"	variable	line:2235
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseReadResponse($buffer, $lines);$/;"	variable	line:2238
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_SET     ||$/;"	variable	line:2241
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_ADD     ||$/;"	variable	line:2242
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_REPLACE ||$/;"	variable	line:2243
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_APPEND  ||$/;"	variable	line:2244
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_PREPEND ||$/;"	variable	line:2245
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_CAS$/;"	variable	line:2246
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseWriteResponse($buffer, $lines);$/;"	variable	line:2249
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_DELETE$/;"	variable	line:2252
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseDeleteResponse($lines);$/;"	variable	line:2255
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_STATS$/;"	variable	line:2258
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseStatsResponse($lines);$/;"	variable	line:2261
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_VERSION$/;"	variable	line:2264
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseVersionResponse($lines);$/;"	variable	line:2267
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_INCR ||$/;"	variable	line:2270
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_DECR$/;"	variable	line:2271
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseArithmeticResponse($buffer, $lines);$/;"	variable	line:2274
+command	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $command === self::COMMAND_FLUSH_ALL$/;"	variable	line:2276
+result	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $result = $this->parseFlushResponse($buffer);$/;"	variable	line:2279
+serializeValue	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function serializeValue($value, $flags, $bytes)$/;"	function	line:2297
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $value = serialize($value);$/;"	variable	line:2301
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $bytes = strlen($value);$/;"	variable	line:2302
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $flags = self::FLAG_DECIMAL_SERIALIZED;$/;"	variable	line:2303
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $flags = self::FLAG_DECIMAL_INTEGER;$/;"	variable	line:2308
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $flags = self::FLAG_DECIMAL_FLOAT;$/;"	variable	line:2311
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $flags = self::FLAG_DECIMAL_STRING;$/;"	variable	line:2315
+value	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $value = strval($value);$/;"	variable	line:2318
+flags	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^                $flags = self::FLAG_DECIMAL_BOOLEAN;$/;"	variable	line:2319
+bytes	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^            $bytes = strlen($value);$/;"	variable	line:2327
+isFlagSet	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function isFlagSet($flags, $flag)$/;"	function	line:2344
+setFlag	X:\phpMemAdmin\vendor\clickalicious\memcached.php\lib\Clickalicious\Memcached\Client.php	/^    protected function setFlag($flags, $flag)$/;"	function	line:2356

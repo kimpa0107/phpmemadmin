@@ -996,6 +996,19 @@ class App
                         self::ERROR_FLUSH
                     );
                 }
+            } elseif (
+                isset($arguments['delete_selected']) === true &&
+                $arguments['delete_selected'] = strip_tags($arguments['delete_selected'])
+            ) {
+                $keys = $arguments['delete_selected'];
+                $keys = explode(',', $keys);
+                if ($keys) {
+                    foreach ($keys as $key) {
+                        $this->getMemcachedClient($host[0], $host[1], $this->getConfig()->timeout)
+                            ->delete($key);
+                    }
+                }
+                $result = true;
             }
 
         } catch (\Clickalicious\Memcached\Exception $e) {

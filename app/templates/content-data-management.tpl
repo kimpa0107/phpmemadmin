@@ -19,6 +19,9 @@
                 <div class="btn-group">
                     <a class="btn btn-danger" href="javascript:void(0);" onclick="return flushKeys();"><span class="glyphicon glyphicon-trash"></span>&nbsp;Flush all keys!</a>
                 </div>
+                <div class="btn-group">
+                    <a class="btn btn-warning" href="javascript:;" onclick="return delSelectedKeys();"><span class="glyphicon glyphicon-trash"></span>&nbsp;Delete selected keys!</a>
+                </div>
             </div>
         </div>
 
@@ -31,6 +34,12 @@
                 <div class="panel-body">
                     <div class="table-responsive">
                         <table id="storedKeys" class="dt-responsive table table-bordered table-hover table-striped">
+                            <caption>
+                                <label>
+                                    <input type="checkbox" id="check-all-keys" onclick="return checkAllKeys();">
+                                    <span>全选</span>
+                                </label>
+                            </caption>
                             <thead>
                                 <tr>
                                     <th class="one_t">Key</th>
@@ -46,6 +55,13 @@
                                 {{content}}
                             </tbody>
                         </table>
+                    </div>
+                </div>
+                <div class="panel-footer clearfix">
+                    <div class="pull-right">
+                        <div class="btn-group">
+                            <a class="btn btn-warning" href="javascript:;" onclick="return delSelectedKeys();"><span class="glyphicon glyphicon-trash"></span>&nbsp;Delete selected keys!</a>
+                        </div>
                     </div>
                 </div>
             </div>
